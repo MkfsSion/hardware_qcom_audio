@@ -26,7 +26,7 @@
 #include <unistd.h>
 #include <dlfcn.h>
 #include <cutils/properties.h>
-#include <cutils/log.h>
+#include <log/log.h>
 
 #include "audio_hw.h"
 #include "audio_extn.h"

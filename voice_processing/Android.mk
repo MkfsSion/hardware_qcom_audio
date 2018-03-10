@@ -14,6 +14,7 @@ LOCAL_SRC_FILES:= \
 LOCAL_C_INCLUDES += \
     $(call include-path-for, audio-effects)
 
+LOCAL_HEADER_LIBRARIES := libhardware_headers
 LOCAL_SHARED_LIBRARIES := \
     liblog \
     libhardware \

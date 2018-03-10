@@ -20,10 +20,11 @@
 #define LOG_TAG "offload_effect_bundle"
 #define LOG_NDEBUG 0
 
+#include <pthread.h>
 #include <cutils/list.h>
 #include <pthread.h>
 #include <stdlib.h>
-#include <cutils/log.h>
+#include <log/log.h>
 #include <system/thread_defs.h>
 #include <tinyalsa/asoundlib.h>
 #include <hardware/audio_effect.h>

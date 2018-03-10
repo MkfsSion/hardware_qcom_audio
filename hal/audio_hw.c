@@ -38,7 +38,7 @@
 #include <sys/prctl.h>
 #include <sys/ioctl.h>
 
-#include <cutils/log.h>
+#include <log/log.h>
 #include <cutils/str_parms.h>
 #include <cutils/properties.h>
 #include <cutils/atomic.h>
